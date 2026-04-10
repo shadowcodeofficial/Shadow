@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # ==========================================================
 #  RDP Installer 🚀
-#  SUBSCRIBE TO NotGamerPie
+#  MADE BY ShadowCraftMC
 # ==========================================================
 
 set -euo pipefail
@@ -71,18 +71,19 @@ run_step() {
 clear
 printf "%b\n" "${C}"
 cat <<'EOF'
-  ____      _               ____  _      
- / ___|   _| |__   ___ _ __|  _ \(_) ___ 
-| |  | | | | '_ \ / _ \ '__| |_) | |/ _ \
-| |__| |_| | |_) |  __/ |  |  __/| |  __/
- \____\__, |_.__/ \___|_|  |_|   |_|\___|
-      |___/          By NotGamerPie
+  ███████╗██╗  ██╗ █████╗ ██████╗  ██████╗ ██╗    ██╗ ██████╗██████╗  █████╗ ███████╗████████╗
+██╔════╝██║  ██║██╔══██╗██╔══██╗██╔═══██╗██║    ██║██╔════╝██╔══██╗██╔══██╗██╔════╝╚══██╔══╝
+███████╗███████║███████║██║  ██║██║   ██║██║ █╗ ██║██║     ██████╔╝███████║█████╗     ██║   
+╚════██║██╔══██║██╔══██║██║  ██║██║   ██║██║███╗██║██║     ██╔══██╗██╔══██║██╔══╝     ██║   
+███████║██║  ██║██║  ██║██████╔╝╚██████╔╝╚███╔███╔╝╚██████╗██║  ██║██║  ██║██║        ██║   
+╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝╚═════╝  ╚═════╝  ╚══╝╚══╝  ╚═════╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝        ╚═╝   
+                                Made By ShadowCraftMC,                                             
 EOF
 printf "%b\n" "${N}"
 
 divider
 printf "%b" "${W}"; typewriter "🚀 RDP Installer"; printf "%b" "${N}"
-printf "%b" "${Y}"; typewriter "SUBSCRIBE TO Sagar Gaming 2X"; printf "%b" "${N}"
+printf "%b" "${Y}"; typewriter "SUBSCRIBE TO ShadowCraftMC_YT 2X"; printf "%b" "${N}"
 divider
 sleep 0.6
 
@@ -152,6 +153,6 @@ printf "%b\n" "${G}🔹 Firewall: allowing RDP (3389)${N}"
 divider
 printf "%b" "${G}"; typewriter "✅ Installation Completed Successfully!"; printf "%b" "${N}"
 printf "%b" "${Y}"; typewriter "💻 Connect via RDP → Port 3389"; printf "%b" "${N}"
-printf "%b" "${G}"; typewriter "🔥 Powered by NotGamerPie"; printf "%b" "${N}"
+printf "%b" "${G}"; typewriter "🔥 Powered by ShadowCraftMC"; printf "%b" "${N}"
 divider
 
