@@ -93,13 +93,13 @@ while true; do
         7)
             echo ""
             echo -e "${Y}💻 Installing VM (IDX VPS)...${N}"
-            bash <(curl -fsSL https://raw.githubusercontent.com/NotGamerPiie/idx-vps/main/vps.sh)
+            bash <(curl -fsSL https://raw.githubusercontent.com/shadowcodeofficial/vm/refs/heads/main/vps.sh?token=GHSAT0AAAAAADYS3UWND2SGLPIPVZE2YYXQ2OZZ4WQ)
             pause
             ;;
         8)
             echo ""
             echo -e "${Y}🖥️  Installing RDP...${N}"
-            curl -fsSL https://raw.githubusercontent.com/shadowcodeofficial/Shadow/refs/heads/main/rdp_installer.sh | sed 's/\r$//' | bash
+            curl -fsSL https://raw.githubusercontent.com/shadowcodeofficial/Shadow/refs/heads/main/rdp_installer.sh?token=GHSAT0AAAAAADYS3UWNSX7YHIC2UPCJ4DWK2OZZ6XQ | sed 's/\r$//' | bash
             pause
             ;;
         9)
