@@ -48,15 +48,17 @@ draw_header() {
 # FIX: Using 'EOF' (single quotes) prevents backslash breakage
 # -----------------------------------------------------------------
 cat << 'EOF'
-  _   _       _   ____                           ____  _      
- | \ | | ___ | |_/ ___| __ _ _ __ ___   ___ _ __|  _ \(_) ___ 
- |  \| |/ _ \| __| |  _ / _` | '_ ` _ \ / _ \ '__| |_) | |/ _ \
- | |\  | (_) | |_| |_| | (_| | | | | | |  __/ |  |  __/| |  __/
- |_| \_|\___/ \__|\____|\__,_|_| |_| |_|\___|_|  |_|   |_|\___|
+  ███████╗██╗  ██╗ █████╗ ██████╗  ██████╗ ██╗    ██╗ ██████╗██████╗  █████╗ ███████╗
+██╔════╝██║  ██║██╔══██╗██╔══██╗██╔═══██╗██║    ██║██╔════╝██╔══██╗██╔══██╗██╔════╝
+███████╗███████║███████║██║  ██║██║   ██║██║ █╗ ██║██║     ██████╔╝███████║█████╗  
+╚════██║██╔══██║██╔══██║██║  ██║██║   ██║██║███╗██║██║     ██╔══██╗██╔══██║██╔══╝  
+███████║██║  ██║██║  ██║██████╔╝╚██████╔╝╚███╔███╔╝╚██████╗██║  ██║██║  ██║██║     
+╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝╚═════╝  ╚═════╝  ╚══╝╚══╝  ╚═════╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝     
+                                                                                   
 
 EOF
     echo -e "${BLUE}   :: LXC/LXD DEPLOYMENT SUITE ::${NC}"
-    echo -e "${DIM}      Maintained by NotGamerPie${NC}"
+    echo -e "${DIM}      Maintained by ShadowCraft${nc}"
     echo -e "\n"
 }
 
@@ -250,12 +252,11 @@ finish() {
     echo -e "   1. Refresh groups:  ${YELLOW}newgrp lxd${NC}"
     echo -e "   2. List containers: ${YELLOW}lxc list${NC}"
     echo -e ""
-    echo -e "${DIM}   Thank you for using NotGamerPie Scripts.${NC}"
+    echo -e "${DIM}   Thank you for using ShadowCraftMC Scripts.${NC}"
     echo -e "\n"
 }
 
-# --- Main ---
-main() {
+# --- Main {
     hide_cursor
     init_setup
     detect_os
